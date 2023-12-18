@@ -1,0 +1,11 @@
+server:
+  port: 18080
+logging:
+  level:
+    root: info
+    service: info
+  file:
+    name: my.log
+greeting:
+  date: 2023/12/15
+  message: greeting from my starter
