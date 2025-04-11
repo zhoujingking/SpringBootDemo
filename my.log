@@ -1,0 +1,388 @@
+2023-12-15T09:45:12.287+08:00  INFO 74368 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Starting SpringBootDemoApplication using Java 21.0.1 with PID 74368 (/Users/development/Documents/code/SpringBootDemo/spring-demo/target/classes started by development in /Users/development/Documents/code/SpringBootDemo)
+2023-12-15T09:45:12.288+08:00  INFO 74368 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-12-15T09:45:12.302+08:00  INFO 74368 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-15T09:45:12.303+08:00  INFO 74368 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-15T09:45:12.655+08:00  INFO 74368 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 18080 (http)
+2023-12-15T09:45:12.658+08:00  INFO 74368 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-15T09:45:12.658+08:00  INFO 74368 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-15T09:45:12.674+08:00  INFO 74368 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-15T09:45:12.674+08:00  INFO 74368 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 371 ms
+2023-12-15T09:45:12.882+08:00  INFO 74368 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-15T09:45:12.896+08:00  INFO 74368 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 18080 (http) with context path ''
+2023-12-15T09:45:12.900+08:00  INFO 74368 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Started SpringBootDemoApplication in 0.745 seconds (process running for 6.018)
+2023-12-15T09:47:16.539+08:00  INFO 74368 --- [http-nio-18080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-15T09:47:16.539+08:00  INFO 74368 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-15T09:47:16.540+08:00  INFO 74368 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-12-15T09:47:23.154+08:00  INFO 74368 --- [http-nio-18080-exec-4] com.godking.demo.CouponService           : sent coupon to godking
+2023-12-15T10:00:23.161+08:00  INFO 74624 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Starting SpringBootDemoApplication using Java 21.0.1 with PID 74624 (/Users/development/Documents/code/SpringBootDemo/spring-demo/target/classes started by development in /Users/development/Documents/code/SpringBootDemo)
+2023-12-15T10:00:23.162+08:00  INFO 74624 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-12-15T10:00:23.176+08:00  INFO 74624 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-15T10:00:23.176+08:00  INFO 74624 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-15T10:00:23.509+08:00  INFO 74624 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 18080 (http)
+2023-12-15T10:00:23.512+08:00  INFO 74624 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-15T10:00:23.512+08:00  INFO 74624 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-15T10:00:23.525+08:00  INFO 74624 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-15T10:00:23.525+08:00  INFO 74624 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 349 ms
+2023-12-15T10:00:23.712+08:00  INFO 74624 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-15T10:00:23.725+08:00  INFO 74624 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 18080 (http) with context path ''
+2023-12-15T10:00:23.730+08:00  INFO 74624 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Started SpringBootDemoApplication in 0.692 seconds (process running for 5.944)
+2023-12-15T10:12:24.695+08:00  INFO 74624 --- [http-nio-18080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-15T10:12:24.696+08:00  INFO 74624 --- [http-nio-18080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-15T10:12:24.698+08:00  INFO 74624 --- [http-nio-18080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-12-15T10:13:25.708+08:00  INFO 74848 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Starting SpringBootDemoApplication using Java 21.0.1 with PID 74848 (/Users/development/Documents/code/SpringBootDemo/spring-demo/target/classes started by development in /Users/development/Documents/code/SpringBootDemo)
+2023-12-15T10:13:25.708+08:00  INFO 74848 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-12-15T10:13:25.722+08:00  INFO 74848 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-15T10:13:25.722+08:00  INFO 74848 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-15T10:13:26.051+08:00  INFO 74848 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 18080 (http)
+2023-12-15T10:13:26.054+08:00  INFO 74848 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-15T10:13:26.054+08:00  INFO 74848 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-15T10:13:26.066+08:00  INFO 74848 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-15T10:13:26.067+08:00  INFO 74848 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 345 ms
+2023-12-15T10:13:26.254+08:00  INFO 74848 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-15T10:13:26.268+08:00  INFO 74848 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 18080 (http) with context path ''
+2023-12-15T10:13:26.272+08:00  INFO 74848 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Started SpringBootDemoApplication in 0.689 seconds (process running for 5.935)
+2023-12-15T10:16:14.243+08:00  INFO 74848 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (1 addition, 1 deletion, 0 modifications)
+2023-12-15T10:16:25.265+08:00  WARN 74848 --- [Thread-5] org.apache.tomcat.util.net.Acceptor      : The acceptor thread [http-nio-18080-Acceptor] did not stop cleanly
+2023-12-15T10:16:25.314+08:00  INFO 74848 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Starting SpringBootDemoApplication using Java 21.0.1 with PID 74848 (/Users/development/Documents/code/SpringBootDemo/spring-demo/target/classes started by development in /Users/development/Documents/code/SpringBootDemo)
+2023-12-15T10:16:25.315+08:00  INFO 74848 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-12-15T10:16:25.388+08:00  INFO 74848 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 18080 (http)
+2023-12-15T10:16:25.389+08:00  INFO 74848 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-15T10:16:25.389+08:00  INFO 74848 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-15T10:16:25.392+08:00  INFO 74848 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-15T10:16:25.392+08:00  INFO 74848 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 76 ms
+2023-12-15T10:16:25.436+08:00  INFO 74848 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-15T10:16:25.440+08:00  INFO 74848 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 18080 (http) with context path ''
+2023-12-15T10:16:25.442+08:00  INFO 74848 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Started SpringBootDemoApplication in 0.141 seconds (process running for 185.105)
+2023-12-15T10:16:25.443+08:00  INFO 74848 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-12-15T10:16:45.018+08:00  INFO 74848 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-12-15T10:16:56.032+08:00  WARN 74848 --- [Thread-7] org.apache.tomcat.util.net.Acceptor      : The acceptor thread [http-nio-18080-Acceptor] did not stop cleanly
+2023-12-15T10:16:56.099+08:00  INFO 74848 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Starting SpringBootDemoApplication using Java 21.0.1 with PID 74848 (/Users/development/Documents/code/SpringBootDemo/spring-demo/target/classes started by development in /Users/development/Documents/code/SpringBootDemo)
+2023-12-15T10:16:56.100+08:00  INFO 74848 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-12-15T10:16:56.165+08:00  INFO 74848 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 18080 (http)
+2023-12-15T10:16:56.165+08:00  INFO 74848 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-15T10:16:56.167+08:00  INFO 74848 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-15T10:16:56.170+08:00  INFO 74848 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-15T10:16:56.170+08:00  INFO 74848 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 70 ms
+2023-12-15T10:16:56.209+08:00  INFO 74848 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-15T10:16:56.213+08:00  INFO 74848 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 18080 (http) with context path ''
+2023-12-15T10:16:56.215+08:00  INFO 74848 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Started SpringBootDemoApplication in 0.128 seconds (process running for 215.878)
+2023-12-15T10:16:56.215+08:00  INFO 74848 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-12-15T10:25:21.422+08:00  INFO 74848 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2023-12-15T10:25:32.436+08:00  WARN 74848 --- [Thread-11] org.apache.tomcat.util.net.Acceptor      : The acceptor thread [http-nio-18080-Acceptor] did not stop cleanly
+2023-12-15T10:25:32.501+08:00  INFO 74848 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Starting SpringBootDemoApplication using Java 21.0.1 with PID 74848 (/Users/development/Documents/code/SpringBootDemo/spring-demo/target/classes started by development in /Users/development/Documents/code/SpringBootDemo)
+2023-12-15T10:25:32.501+08:00  INFO 74848 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-12-15T10:25:32.563+08:00  INFO 74848 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 18080 (http)
+2023-12-15T10:25:32.564+08:00  INFO 74848 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-15T10:25:32.564+08:00  INFO 74848 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-15T10:25:32.566+08:00  INFO 74848 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-15T10:25:32.566+08:00  INFO 74848 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 65 ms
+2023-12-15T10:25:32.604+08:00  INFO 74848 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-15T10:25:32.607+08:00  INFO 74848 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 18080 (http) with context path ''
+2023-12-15T10:25:32.609+08:00  INFO 74848 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Started SpringBootDemoApplication in 0.121 seconds (process running for 732.274)
+2023-12-15T10:25:32.609+08:00  INFO 74848 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-12-15T10:28:45.107+08:00  INFO 75089 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Starting SpringBootDemoApplication using Java 21.0.1 with PID 75089 (/Users/development/Documents/code/SpringBootDemo/spring-demo/target/classes started by development in /Users/development/Documents/code/SpringBootDemo)
+2023-12-15T10:28:45.108+08:00  INFO 75089 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-12-15T10:28:45.122+08:00  INFO 75089 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-15T10:28:45.122+08:00  INFO 75089 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-15T10:28:45.454+08:00  INFO 75089 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 18080 (http)
+2023-12-15T10:28:45.457+08:00  INFO 75089 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-15T10:28:45.458+08:00  INFO 75089 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-15T10:28:45.470+08:00  INFO 75089 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-15T10:28:45.470+08:00  INFO 75089 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 348 ms
+2023-12-15T10:28:45.655+08:00  INFO 75089 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-15T10:28:45.667+08:00  INFO 75089 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 18080 (http) with context path ''
+2023-12-15T10:28:45.672+08:00  INFO 75089 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Started SpringBootDemoApplication in 0.687 seconds (process running for 5.942)
+2023-12-15T10:28:54.505+08:00  INFO 75089 --- [http-nio-18080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-15T10:28:54.506+08:00  INFO 75089 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-15T10:28:54.507+08:00  INFO 75089 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-12-15T10:29:17.730+08:00  INFO 75089 --- [http-nio-18080-exec-7] c.g.customstarter.GreetingController     : greeting from my customized starter
+2023-12-15T10:29:18.837+08:00  INFO 75089 --- [http-nio-18080-exec-8] c.g.customstarter.GreetingController     : greeting from my customized starter
+2023-12-15T10:29:19.312+08:00  INFO 75089 --- [http-nio-18080-exec-9] c.g.customstarter.GreetingController     : greeting from my customized starter
+2023-12-15T10:38:15.999+08:00  INFO 75089 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2023-12-15T10:38:27.019+08:00  WARN 75089 --- [Thread-5] org.apache.tomcat.util.net.Acceptor      : The acceptor thread [http-nio-18080-Acceptor] did not stop cleanly
+2023-12-15T10:38:27.081+08:00  INFO 75089 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Starting SpringBootDemoApplication using Java 21.0.1 with PID 75089 (/Users/development/Documents/code/SpringBootDemo/spring-demo/target/classes started by development in /Users/development/Documents/code/SpringBootDemo)
+2023-12-15T10:38:27.081+08:00  INFO 75089 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-12-15T10:38:27.156+08:00  INFO 75089 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 18080 (http)
+2023-12-15T10:38:27.156+08:00  INFO 75089 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-15T10:38:27.156+08:00  INFO 75089 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-15T10:38:27.159+08:00  INFO 75089 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-15T10:38:27.159+08:00  INFO 75089 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 76 ms
+2023-12-15T10:38:27.202+08:00  INFO 75089 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-15T10:38:27.208+08:00  INFO 75089 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 18080 (http) with context path ''
+2023-12-15T10:38:27.210+08:00  INFO 75089 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Started SpringBootDemoApplication in 0.144 seconds (process running for 587.483)
+2023-12-15T10:38:27.211+08:00  INFO 75089 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-12-15T10:39:01.926+08:00  INFO 75089 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-12-15T10:39:12.938+08:00  WARN 75089 --- [Thread-7] org.apache.tomcat.util.net.Acceptor      : The acceptor thread [http-nio-18080-Acceptor] did not stop cleanly
+2023-12-15T10:39:12.987+08:00  INFO 75089 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Starting SpringBootDemoApplication using Java 21.0.1 with PID 75089 (/Users/development/Documents/code/SpringBootDemo/spring-demo/target/classes started by development in /Users/development/Documents/code/SpringBootDemo)
+2023-12-15T10:39:12.987+08:00  INFO 75089 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-12-15T10:39:13.053+08:00  INFO 75089 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 18080 (http)
+2023-12-15T10:39:13.053+08:00  INFO 75089 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-15T10:39:13.053+08:00  INFO 75089 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-15T10:39:13.056+08:00  INFO 75089 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-15T10:39:13.056+08:00  INFO 75089 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 68 ms
+2023-12-15T10:39:13.096+08:00  INFO 75089 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-15T10:39:13.100+08:00  INFO 75089 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 18080 (http) with context path ''
+2023-12-15T10:39:13.101+08:00  INFO 75089 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Started SpringBootDemoApplication in 0.124 seconds (process running for 633.374)
+2023-12-15T10:39:13.102+08:00  INFO 75089 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-12-15T10:39:21.572+08:00  INFO 75089 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-12-15T10:39:32.584+08:00  WARN 75089 --- [Thread-11] org.apache.tomcat.util.net.Acceptor      : The acceptor thread [http-nio-18080-Acceptor] did not stop cleanly
+2023-12-15T10:39:32.635+08:00  INFO 75089 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Starting SpringBootDemoApplication using Java 21.0.1 with PID 75089 (/Users/development/Documents/code/SpringBootDemo/spring-demo/target/classes started by development in /Users/development/Documents/code/SpringBootDemo)
+2023-12-15T10:39:32.635+08:00  INFO 75089 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-12-15T10:39:32.700+08:00  INFO 75089 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 18080 (http)
+2023-12-15T10:39:32.701+08:00  INFO 75089 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-15T10:39:32.701+08:00  INFO 75089 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-15T10:39:32.704+08:00  INFO 75089 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-15T10:39:32.704+08:00  INFO 75089 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 68 ms
+2023-12-15T10:39:32.741+08:00  INFO 75089 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-15T10:39:32.744+08:00  INFO 75089 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 18080 (http) with context path ''
+2023-12-15T10:39:32.746+08:00  INFO 75089 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Started SpringBootDemoApplication in 0.122 seconds (process running for 653.019)
+2023-12-15T10:39:32.746+08:00  INFO 75089 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-12-15T10:39:50.306+08:00  INFO 75089 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-12-15T10:40:01.318+08:00  WARN 75089 --- [Thread-15] org.apache.tomcat.util.net.Acceptor      : The acceptor thread [http-nio-18080-Acceptor] did not stop cleanly
+2023-12-15T10:40:01.365+08:00  INFO 75089 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Starting SpringBootDemoApplication using Java 21.0.1 with PID 75089 (/Users/development/Documents/code/SpringBootDemo/spring-demo/target/classes started by development in /Users/development/Documents/code/SpringBootDemo)
+2023-12-15T10:40:01.365+08:00  INFO 75089 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-12-15T10:40:01.428+08:00  INFO 75089 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 18080 (http)
+2023-12-15T10:40:01.429+08:00  INFO 75089 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-15T10:40:01.429+08:00  INFO 75089 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-15T10:40:01.431+08:00  INFO 75089 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-15T10:40:01.431+08:00  INFO 75089 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 65 ms
+2023-12-15T10:40:01.469+08:00  INFO 75089 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-15T10:40:01.473+08:00  INFO 75089 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 18080 (http) with context path ''
+2023-12-15T10:40:01.474+08:00  INFO 75089 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Started SpringBootDemoApplication in 0.12 seconds (process running for 681.747)
+2023-12-15T10:40:01.475+08:00  INFO 75089 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-12-15T10:40:28.529+08:00  INFO 75089 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-12-15T10:40:39.542+08:00  WARN 75089 --- [Thread-19] org.apache.tomcat.util.net.Acceptor      : The acceptor thread [http-nio-18080-Acceptor] did not stop cleanly
+2023-12-15T10:40:39.609+08:00  INFO 75089 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Starting SpringBootDemoApplication using Java 21.0.1 with PID 75089 (/Users/development/Documents/code/SpringBootDemo/spring-demo/target/classes started by development in /Users/development/Documents/code/SpringBootDemo)
+2023-12-15T10:40:39.609+08:00  INFO 75089 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-12-15T10:40:39.671+08:00  INFO 75089 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 18080 (http)
+2023-12-15T10:40:39.671+08:00  INFO 75089 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-15T10:40:39.671+08:00  INFO 75089 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-15T10:40:39.674+08:00  INFO 75089 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-15T10:40:39.674+08:00  INFO 75089 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 64 ms
+2023-12-15T10:40:39.710+08:00  INFO 75089 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-15T10:40:39.714+08:00  INFO 75089 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 18080 (http) with context path ''
+2023-12-15T10:40:39.715+08:00  INFO 75089 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Started SpringBootDemoApplication in 0.119 seconds (process running for 719.988)
+2023-12-15T10:40:39.716+08:00  INFO 75089 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-12-15T10:42:49.343+08:00  INFO 75089 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-12-15T10:43:00.357+08:00  WARN 75089 --- [Thread-23] org.apache.tomcat.util.net.Acceptor      : The acceptor thread [http-nio-18080-Acceptor] did not stop cleanly
+2023-12-15T10:43:00.421+08:00  INFO 75089 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Starting SpringBootDemoApplication using Java 21.0.1 with PID 75089 (/Users/development/Documents/code/SpringBootDemo/spring-demo/target/classes started by development in /Users/development/Documents/code/SpringBootDemo)
+2023-12-15T10:43:00.421+08:00  INFO 75089 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-12-15T10:43:00.483+08:00  INFO 75089 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 18080 (http)
+2023-12-15T10:43:00.483+08:00  INFO 75089 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-15T10:43:00.483+08:00  INFO 75089 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-15T10:43:00.486+08:00  INFO 75089 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-15T10:43:00.486+08:00  INFO 75089 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 64 ms
+2023-12-15T10:43:00.522+08:00  INFO 75089 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-15T10:43:00.526+08:00  INFO 75089 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 18080 (http) with context path ''
+2023-12-15T10:43:00.527+08:00  INFO 75089 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Started SpringBootDemoApplication in 0.117 seconds (process running for 860.801)
+2023-12-15T10:43:00.528+08:00  INFO 75089 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-12-15T10:46:55.591+08:00  INFO 75407 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Starting SpringBootDemoApplication using Java 21.0.1 with PID 75407 (/Users/development/Documents/code/SpringBootDemo/spring-demo/target/classes started by development in /Users/development/Documents/code/SpringBootDemo)
+2023-12-15T10:46:55.591+08:00  INFO 75407 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-12-15T10:46:55.606+08:00  INFO 75407 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-15T10:46:55.606+08:00  INFO 75407 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-15T10:46:55.930+08:00  INFO 75407 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 18080 (http)
+2023-12-15T10:46:55.933+08:00  INFO 75407 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-15T10:46:55.933+08:00  INFO 75407 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-15T10:46:55.946+08:00  INFO 75407 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-15T10:46:55.946+08:00  INFO 75407 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 340 ms
+2023-12-15T10:46:56.131+08:00  INFO 75407 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-15T10:46:56.143+08:00  INFO 75407 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 18080 (http) with context path ''
+2023-12-15T10:46:56.148+08:00  INFO 75407 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Started SpringBootDemoApplication in 0.68 seconds (process running for 5.939)
+2023-12-15T10:47:06.141+08:00  INFO 75407 --- [http-nio-18080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-15T10:47:06.142+08:00  INFO 75407 --- [http-nio-18080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-15T10:47:06.143+08:00  INFO 75407 --- [http-nio-18080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-12-15T10:47:06.158+08:00  INFO 75407 --- [http-nio-18080-exec-2] c.g.customstarter.GreetingController     : greeting from my customized starter
+2023-12-15T10:47:06.822+08:00  INFO 75407 --- [http-nio-18080-exec-3] c.g.customstarter.GreetingController     : greeting from my customized starter
+2023-12-15T10:47:07.154+08:00  INFO 75407 --- [http-nio-18080-exec-4] c.g.customstarter.GreetingController     : greeting from my customized starter
+2023-12-15T10:47:08.401+08:00  INFO 75407 --- [http-nio-18080-exec-5] c.g.customstarter.GreetingController     : greeting from my customized starter
+2023-12-15T10:47:08.798+08:00  INFO 75407 --- [http-nio-18080-exec-6] c.g.customstarter.GreetingController     : greeting from my customized starter
+2023-12-15T10:47:09.223+08:00  INFO 75407 --- [http-nio-18080-exec-7] c.g.customstarter.GreetingController     : greeting from my customized starter
+2023-12-15T10:47:09.831+08:00  INFO 75407 --- [http-nio-18080-exec-8] c.g.customstarter.GreetingController     : greeting from my customized starter
+2023-12-15T10:50:38.696+08:00  INFO 75467 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Starting SpringBootDemoApplication using Java 21.0.1 with PID 75467 (/Users/development/Documents/code/SpringBootDemo/spring-demo/target/classes started by development in /Users/development/Documents/code/SpringBootDemo)
+2023-12-15T10:50:38.697+08:00  INFO 75467 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-12-15T10:50:38.711+08:00  INFO 75467 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-15T10:50:38.711+08:00  INFO 75467 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-15T10:50:39.037+08:00  INFO 75467 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 18080 (http)
+2023-12-15T10:50:39.040+08:00  INFO 75467 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-15T10:50:39.040+08:00  INFO 75467 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-15T10:50:39.052+08:00  INFO 75467 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-15T10:50:39.052+08:00  INFO 75467 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 341 ms
+2023-12-15T10:50:39.240+08:00  INFO 75467 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-15T10:50:39.253+08:00  INFO 75467 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 18080 (http) with context path ''
+2023-12-15T10:50:39.258+08:00  INFO 75467 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Started SpringBootDemoApplication in 0.693 seconds (process running for 5.951)
+2023-12-15T10:50:50.449+08:00  INFO 75467 --- [http-nio-18080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-15T10:50:50.449+08:00  INFO 75467 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-15T10:50:50.450+08:00  INFO 75467 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-12-15T10:50:50.463+08:00  INFO 75467 --- [http-nio-18080-exec-1] c.g.customstarter.GreetingController     : greeting from my customized starter
+2023-12-15T10:50:51.308+08:00  INFO 75467 --- [http-nio-18080-exec-3] c.g.customstarter.GreetingController     : greeting from my customized starter
+2023-12-15T10:50:51.648+08:00  INFO 75467 --- [http-nio-18080-exec-4] c.g.customstarter.GreetingController     : greeting from my customized starter
+2023-12-15T10:50:52.057+08:00  INFO 75467 --- [http-nio-18080-exec-5] c.g.customstarter.GreetingController     : greeting from my customized starter
+2023-12-15T10:50:53.337+08:00  INFO 75467 --- [http-nio-18080-exec-6] c.g.customstarter.GreetingController     : greeting from my customized starter
+2023-12-15T10:50:53.686+08:00  INFO 75467 --- [http-nio-18080-exec-7] c.g.customstarter.GreetingController     : greeting from my customized starter
+2023-12-15T10:50:56.495+08:00  INFO 75467 --- [http-nio-18080-exec-8] c.g.customstarter.GreetingController     : greeting from my customized starter
+2023-12-15T10:51:48.530+08:00  INFO 75488 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Starting SpringBootDemoApplication using Java 21.0.1 with PID 75488 (/Users/development/Documents/code/SpringBootDemo/spring-demo/target/classes started by development in /Users/development/Documents/code/SpringBootDemo)
+2023-12-15T10:51:48.530+08:00  INFO 75488 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-12-15T10:51:48.544+08:00  INFO 75488 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-15T10:51:48.544+08:00  INFO 75488 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-15T10:51:48.874+08:00  INFO 75488 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 18080 (http)
+2023-12-15T10:51:48.877+08:00  INFO 75488 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-15T10:51:48.877+08:00  INFO 75488 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-15T10:51:48.890+08:00  INFO 75488 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-15T10:51:48.890+08:00  INFO 75488 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 346 ms
+2023-12-15T10:51:49.109+08:00  INFO 75488 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-15T10:51:49.129+08:00  INFO 75488 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 18080 (http) with context path ''
+2023-12-15T10:51:49.134+08:00  INFO 75488 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Started SpringBootDemoApplication in 0.727 seconds (process running for 5.994)
+2023-12-15T10:51:50.692+08:00  INFO 75488 --- [http-nio-18080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-15T10:51:50.692+08:00  INFO 75488 --- [http-nio-18080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-15T10:51:50.693+08:00  INFO 75488 --- [http-nio-18080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-12-15T10:51:50.706+08:00  INFO 75488 --- [http-nio-18080-exec-2] c.g.customstarter.GreetingController     : greeting from my customized starter
+2023-12-15T11:36:33.455+08:00  INFO 75488 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-12-15T11:36:44.476+08:00  WARN 75488 --- [Thread-5] org.apache.tomcat.util.net.Acceptor      : The acceptor thread [http-nio-18080-Acceptor] did not stop cleanly
+2023-12-15T11:36:44.546+08:00  INFO 75488 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Starting SpringBootDemoApplication using Java 21.0.1 with PID 75488 (/Users/development/Documents/code/SpringBootDemo/spring-demo/target/classes started by development in /Users/development/Documents/code/SpringBootDemo)
+2023-12-15T11:36:44.547+08:00  INFO 75488 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-12-15T11:36:44.628+08:00  INFO 75488 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 18080 (http)
+2023-12-15T11:36:44.629+08:00  INFO 75488 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-15T11:36:44.629+08:00  INFO 75488 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-15T11:36:44.632+08:00  INFO 75488 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-15T11:36:44.632+08:00  INFO 75488 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 84 ms
+2023-12-15T11:36:44.686+08:00  INFO 75488 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-15T11:36:44.692+08:00  INFO 75488 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 18080 (http) with context path ''
+2023-12-15T11:36:44.694+08:00  INFO 75488 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Started SpringBootDemoApplication in 0.164 seconds (process running for 2701.669)
+2023-12-15T11:36:44.694+08:00  INFO 75488 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-12-15T11:37:20.400+08:00  INFO 75488 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-12-15T11:37:31.413+08:00  WARN 75488 --- [Thread-7] org.apache.tomcat.util.net.Acceptor      : The acceptor thread [http-nio-18080-Acceptor] did not stop cleanly
+2023-12-15T11:37:31.482+08:00  INFO 75488 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Starting SpringBootDemoApplication using Java 21.0.1 with PID 75488 (/Users/development/Documents/code/SpringBootDemo/spring-demo/target/classes started by development in /Users/development/Documents/code/SpringBootDemo)
+2023-12-15T11:37:31.483+08:00  INFO 75488 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-12-15T11:37:31.550+08:00  INFO 75488 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 18080 (http)
+2023-12-15T11:37:31.550+08:00  INFO 75488 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-15T11:37:31.550+08:00  INFO 75488 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-15T11:37:31.554+08:00  INFO 75488 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-15T11:37:31.554+08:00  INFO 75488 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 71 ms
+2023-12-15T11:37:31.593+08:00  INFO 75488 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-15T11:37:31.597+08:00  INFO 75488 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 18080 (http) with context path ''
+2023-12-15T11:37:31.599+08:00  INFO 75488 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Started SpringBootDemoApplication in 0.128 seconds (process running for 2748.574)
+2023-12-15T11:37:31.599+08:00  INFO 75488 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-12-15T11:38:45.671+08:00  INFO 75488 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-12-15T11:38:56.683+08:00  WARN 75488 --- [Thread-11] org.apache.tomcat.util.net.Acceptor      : The acceptor thread [http-nio-18080-Acceptor] did not stop cleanly
+2023-12-15T11:38:56.748+08:00  INFO 75488 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Starting SpringBootDemoApplication using Java 21.0.1 with PID 75488 (/Users/development/Documents/code/SpringBootDemo/spring-demo/target/classes started by development in /Users/development/Documents/code/SpringBootDemo)
+2023-12-15T11:38:56.748+08:00  INFO 75488 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-12-15T11:38:56.811+08:00  INFO 75488 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 18080 (http)
+2023-12-15T11:38:56.811+08:00  INFO 75488 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-15T11:38:56.811+08:00  INFO 75488 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-15T11:38:56.815+08:00  INFO 75488 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-15T11:38:56.815+08:00  INFO 75488 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 66 ms
+2023-12-15T11:38:56.851+08:00  INFO 75488 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-15T11:38:56.855+08:00  INFO 75488 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 18080 (http) with context path ''
+2023-12-15T11:38:56.857+08:00  INFO 75488 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Started SpringBootDemoApplication in 0.121 seconds (process running for 2833.833)
+2023-12-15T11:38:56.857+08:00  INFO 75488 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-12-15T11:39:47.734+08:00  INFO 75488 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-12-15T11:39:58.746+08:00  WARN 75488 --- [Thread-15] org.apache.tomcat.util.net.Acceptor      : The acceptor thread [http-nio-18080-Acceptor] did not stop cleanly
+2023-12-15T11:39:58.799+08:00  INFO 75488 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Starting SpringBootDemoApplication using Java 21.0.1 with PID 75488 (/Users/development/Documents/code/SpringBootDemo/spring-demo/target/classes started by development in /Users/development/Documents/code/SpringBootDemo)
+2023-12-15T11:39:58.799+08:00  INFO 75488 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-12-15T11:39:58.865+08:00  INFO 75488 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 18080 (http)
+2023-12-15T11:39:58.865+08:00  INFO 75488 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-15T11:39:58.865+08:00  INFO 75488 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-15T11:39:58.869+08:00  INFO 75488 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-15T11:39:58.869+08:00  INFO 75488 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 69 ms
+2023-12-15T11:39:58.908+08:00  INFO 75488 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-15T11:39:58.913+08:00  INFO 75488 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 18080 (http) with context path ''
+2023-12-15T11:39:58.915+08:00  INFO 75488 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Started SpringBootDemoApplication in 0.127 seconds (process running for 2895.891)
+2023-12-15T11:39:58.915+08:00  INFO 75488 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-12-15T11:40:18.502+08:00  INFO 75488 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-12-15T11:40:29.511+08:00  WARN 75488 --- [Thread-19] org.apache.tomcat.util.net.Acceptor      : The acceptor thread [http-nio-18080-Acceptor] did not stop cleanly
+2023-12-15T11:40:29.575+08:00  INFO 75488 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Starting SpringBootDemoApplication using Java 21.0.1 with PID 75488 (/Users/development/Documents/code/SpringBootDemo/spring-demo/target/classes started by development in /Users/development/Documents/code/SpringBootDemo)
+2023-12-15T11:40:29.575+08:00  INFO 75488 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-12-15T11:40:29.635+08:00  INFO 75488 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 18080 (http)
+2023-12-15T11:40:29.635+08:00  INFO 75488 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-15T11:40:29.635+08:00  INFO 75488 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-15T11:40:29.639+08:00  INFO 75488 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-15T11:40:29.639+08:00  INFO 75488 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 63 ms
+2023-12-15T11:40:29.674+08:00  INFO 75488 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-15T11:40:29.678+08:00  INFO 75488 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 18080 (http) with context path ''
+2023-12-15T11:40:29.680+08:00  INFO 75488 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Started SpringBootDemoApplication in 0.116 seconds (process running for 2926.657)
+2023-12-15T11:40:29.680+08:00  INFO 75488 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-12-15T11:40:51.289+08:00  INFO 75488 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-12-15T11:41:02.301+08:00  WARN 75488 --- [Thread-23] org.apache.tomcat.util.net.Acceptor      : The acceptor thread [http-nio-18080-Acceptor] did not stop cleanly
+2023-12-15T11:41:02.352+08:00  INFO 75488 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Starting SpringBootDemoApplication using Java 21.0.1 with PID 75488 (/Users/development/Documents/code/SpringBootDemo/spring-demo/target/classes started by development in /Users/development/Documents/code/SpringBootDemo)
+2023-12-15T11:41:02.352+08:00  INFO 75488 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-12-15T11:41:02.417+08:00  INFO 75488 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 18080 (http)
+2023-12-15T11:41:02.417+08:00  INFO 75488 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-15T11:41:02.417+08:00  INFO 75488 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-15T11:41:02.420+08:00  INFO 75488 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-15T11:41:02.421+08:00  INFO 75488 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 68 ms
+2023-12-15T11:41:02.456+08:00  INFO 75488 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-15T11:41:02.460+08:00  INFO 75488 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 18080 (http) with context path ''
+2023-12-15T11:41:02.461+08:00  INFO 75488 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Started SpringBootDemoApplication in 0.119 seconds (process running for 2959.438)
+2023-12-15T11:41:02.462+08:00  INFO 75488 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-12-15T11:43:34.732+08:00  INFO 76338 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Starting SpringBootDemoApplication using Java 21.0.1 with PID 76338 (/Users/development/Documents/code/SpringBootDemo/spring-demo/target/classes started by development in /Users/development/Documents/code/SpringBootDemo)
+2023-12-15T11:43:34.733+08:00  INFO 76338 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-12-15T11:43:34.747+08:00  INFO 76338 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-15T11:43:34.747+08:00  INFO 76338 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-15T11:43:35.075+08:00  INFO 76338 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 18080 (http)
+2023-12-15T11:43:35.077+08:00  INFO 76338 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-15T11:43:35.078+08:00  INFO 76338 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-15T11:43:35.090+08:00  INFO 76338 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-15T11:43:35.090+08:00  INFO 76338 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 343 ms
+2023-12-15T11:43:35.276+08:00  INFO 76338 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-15T11:43:35.290+08:00  INFO 76338 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 18080 (http) with context path ''
+2023-12-15T11:43:35.295+08:00  INFO 76338 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Started SpringBootDemoApplication in 0.686 seconds (process running for 5.944)
+2023-12-15T11:43:47.876+08:00  INFO 76338 --- [http-nio-18080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-15T11:43:47.876+08:00  INFO 76338 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-15T11:43:47.877+08:00  INFO 76338 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-12-15T11:43:47.881+08:00  INFO 76338 --- [http-nio-18080-exec-1] com.godking.demo.RequestLogFilter        : Entering /api/greeting
+2023-12-15T11:43:47.891+08:00  INFO 76338 --- [http-nio-18080-exec-1] c.g.customstarter.GreetingController     : greeting from my customized starter
+2023-12-15T11:43:47.916+08:00  INFO 76338 --- [http-nio-18080-exec-1] com.godking.demo.RequestLogFilter        : leaving /api/greeting
+2023-12-15T13:09:44.176+08:00  INFO 77521 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Starting SpringBootDemoApplication using Java 21.0.1 with PID 77521 (/Users/development/Documents/code/SpringBootDemo/spring-demo/target/classes started by development in /Users/development/Documents/code/SpringBootDemo)
+2023-12-15T13:09:44.177+08:00  INFO 77521 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-12-15T13:09:44.191+08:00  INFO 77521 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-15T13:09:44.191+08:00  INFO 77521 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-15T13:09:44.523+08:00  INFO 77521 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 18080 (http)
+2023-12-15T13:09:44.526+08:00  INFO 77521 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-15T13:09:44.526+08:00  INFO 77521 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-15T13:09:44.539+08:00  INFO 77521 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-15T13:09:44.539+08:00  INFO 77521 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 348 ms
+2023-12-15T13:09:44.728+08:00  INFO 77521 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-15T13:09:44.741+08:00  INFO 77521 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 18080 (http) with context path ''
+2023-12-15T13:09:44.746+08:00  INFO 77521 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Started SpringBootDemoApplication in 0.694 seconds (process running for 5.95)
+2023-12-15T13:09:49.374+08:00  INFO 77521 --- [http-nio-18080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-15T13:09:49.375+08:00  INFO 77521 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-15T13:09:49.376+08:00  INFO 77521 --- [http-nio-18080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-12-15T13:09:49.378+08:00  INFO 77521 --- [http-nio-18080-exec-1] com.godking.demo.AuthFilter              : authorization operations
+2023-12-15T13:09:49.379+08:00  INFO 77521 --- [http-nio-18080-exec-1] com.godking.demo.RequestLogFilter        : Entering /api/greeting
+2023-12-15T13:09:49.388+08:00  INFO 77521 --- [http-nio-18080-exec-1] c.g.customstarter.GreetingController     : greeting from my customized starter
+2023-12-15T13:09:49.414+08:00  INFO 77521 --- [http-nio-18080-exec-1] com.godking.demo.RequestLogFilter        : leaving /api/greeting
+2023-12-15T13:09:50.082+08:00  INFO 77521 --- [http-nio-18080-exec-3] com.godking.demo.AuthFilter              : authorization operations
+2023-12-15T13:09:50.083+08:00  INFO 77521 --- [http-nio-18080-exec-3] com.godking.demo.RequestLogFilter        : Entering /api/greeting
+2023-12-15T13:09:50.083+08:00  INFO 77521 --- [http-nio-18080-exec-3] c.g.customstarter.GreetingController     : greeting from my customized starter
+2023-12-15T13:09:50.085+08:00  INFO 77521 --- [http-nio-18080-exec-3] com.godking.demo.RequestLogFilter        : leaving /api/greeting
+2023-12-15T13:10:49.379+08:00  INFO 77552 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Starting SpringBootDemoApplication using Java 21.0.1 with PID 77552 (/Users/development/Documents/code/SpringBootDemo/spring-demo/target/classes started by development in /Users/development/Documents/code/SpringBootDemo)
+2023-12-15T13:10:49.380+08:00  INFO 77552 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-12-15T13:10:49.394+08:00  INFO 77552 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-15T13:10:49.394+08:00  INFO 77552 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-15T13:10:49.745+08:00  INFO 77552 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 18080 (http)
+2023-12-15T13:10:49.748+08:00  INFO 77552 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-15T13:10:49.748+08:00  INFO 77552 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-15T13:10:49.762+08:00  INFO 77552 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-15T13:10:49.762+08:00  INFO 77552 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 368 ms
+2023-12-15T13:10:49.950+08:00  INFO 77552 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-15T13:10:49.964+08:00  INFO 77552 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 18080 (http) with context path ''
+2023-12-15T13:10:49.969+08:00  INFO 77552 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Started SpringBootDemoApplication in 0.719 seconds (process running for 6.037)
+2023-12-15T13:11:03.624+08:00  INFO 77557 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Starting SpringBootDemoApplication using Java 21.0.1 with PID 77557 (/Users/development/Documents/code/SpringBootDemo/spring-demo/target/classes started by development in /Users/development/Documents/code/SpringBootDemo)
+2023-12-15T13:11:03.625+08:00  INFO 77557 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-12-15T13:11:03.640+08:00  INFO 77557 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-12-15T13:11:03.640+08:00  INFO 77557 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-12-15T13:11:03.976+08:00  INFO 77557 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 18080 (http)
+2023-12-15T13:11:03.979+08:00  INFO 77557 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-12-15T13:11:03.979+08:00  INFO 77557 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.16]
+2023-12-15T13:11:03.992+08:00  INFO 77557 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-12-15T13:11:03.992+08:00  INFO 77557 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 352 ms
+2023-12-15T13:11:04.182+08:00  INFO 77557 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-12-15T13:11:04.195+08:00  INFO 77557 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 18080 (http) with context path ''
+2023-12-15T13:11:04.200+08:00  INFO 77557 --- [restartedMain] c.g.demo.SpringBootDemoApplication       : Started SpringBootDemoApplication in 0.697 seconds (process running for 5.947)
+2023-12-15T13:11:09.222+08:00  INFO 77557 --- [http-nio-18080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-12-15T13:11:09.222+08:00  INFO 77557 --- [http-nio-18080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-12-15T13:11:09.223+08:00  INFO 77557 --- [http-nio-18080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-12-15T13:11:09.226+08:00  INFO 77557 --- [http-nio-18080-exec-2] com.godking.demo.AuthFilter              : authorization operations
+2023-12-15T13:11:09.227+08:00  INFO 77557 --- [http-nio-18080-exec-2] com.godking.demo.RequestLogFilter        : Entering /api/greeting
+2023-12-15T13:11:09.237+08:00  INFO 77557 --- [http-nio-18080-exec-2] c.g.customstarter.GreetingController     : greeting from my customized starter
+2023-12-15T13:11:09.263+08:00  INFO 77557 --- [http-nio-18080-exec-2] com.godking.demo.RequestLogFilter        : leaving /api/greeting
